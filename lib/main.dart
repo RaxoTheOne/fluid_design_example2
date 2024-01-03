@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
             return Container(
               margin: const EdgeInsets.all(10.0),
               decoration: BoxDecoration(
-                color: Colors.blue[(index+1)*100], // Farbe ändern basierend auf dem Index
+                color: Colors.blue[
+                    (index + 1) * 100], // Farbe ändern basierend auf dem Index
                 borderRadius: BorderRadius.circular(10.0),
               ),
             );
