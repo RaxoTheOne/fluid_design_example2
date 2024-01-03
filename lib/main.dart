@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
-            itemCount: 10, // Anzahl der Container
+            itemCount: 60, // Anzahl der Container
             itemBuilder: (BuildContext context, int index) {
               return Container(
                 color: _getRandomColor(),
